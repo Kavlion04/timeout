@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:darkblue;
+}
+h2 {
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(255, 255, 0, 0.581);
+    margin-left: 40px;
+    
+}
+h2 span {
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgba(255, 255, 0, 0.581);
+    text-shadow: rgba(255, 255, 0, 0.581) 0 0 10px 10px;
+    
+}
+button {
+    font-family: 'Lexend Giga', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 20px 10px ;
+    background: linear-gradient(#fff , #0899);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    background: linear-gradient( #0899 , #fff);
+    transition: all 0.3s ease-in-out;
+}
+.timer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#000 , #fff);
+}
+.timer-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    
+
+}
+.fa-regular {
+    color: rgba(0, 0, 0, 0.581);
+    font-size: 70px;
+}
+.timers {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.timers h2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
