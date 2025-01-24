@@ -10,7 +10,7 @@ let timers = setInterval(() => {
     const currrent = new Date().toLocaleTimeString("it-IT")
     timer.innerHTML = currrent;
     audio.play();
-    if(currrent === '22:01:50'){
+    if(currrent === '17:53:30'){
         audios.play();
         bell.classList.add('fa-shake');
         setTimeout(() => {
